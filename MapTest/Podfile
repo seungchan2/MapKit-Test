@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '10.0'
+
+target 'MapTest' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MapTest
+  pod 'GoogleMaps', '6.1.0'
+  pod 'Google-Maps-iOS-Utils', '3.4.0'
+  pod 'SnapKit', '~> 5.6.0'
+  pod 'Then'
+
+  post_install do |installer|
+   installer.pods_project.build_configurations.each do |config|
+    config.build_settings['VALID_ARCHS'] = 'arm64, arm64e, x86_64'
+  end
+end
+
+  target 'MapTestTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MapTestUITests' do
+    # Pods for testing
+  end
+
+end
