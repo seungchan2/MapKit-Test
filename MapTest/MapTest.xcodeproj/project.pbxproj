@@ -17,6 +17,16 @@
 		EC713B2D28FEFE2D0007B487 /* MapTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC713B2C28FEFE2D0007B487 /* MapTestUITestsLaunchTests.swift */; };
 		EC713B3928FEFF060007B487 /* Pods_MapTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C828BD9B098626ADD9BFB4B /* Pods_MapTest.framework */; };
 		EC713B3D28FF030B0007B487 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC713B3C28FF030B0007B487 /* MapViewController.swift */; };
+		ECBED4BC2902D6A40054373A /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBED4BB2902D6A40054373A /* Coordinator.swift */; };
+		ECBED4BE2902D71A0054373A /* CoordinatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBED4BD2902D71A0054373A /* CoordinatorDelegate.swift */; };
+		ECBED4C02902D8AB0054373A /* CoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBED4BF2902D8AB0054373A /* CoordinatorType.swift */; };
+		ECBED4C22902D9B10054373A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBED4C12902D9B10054373A /* AppCoordinator.swift */; };
+		ECBED4C42902E00E0054373A /* DefaultAppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBED4C32902E00E0054373A /* DefaultAppCoordinator.swift */; };
+		ECBED4C62902E0DB0054373A /* DefaultLoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBED4C52902E0DB0054373A /* DefaultLoginCoordinator.swift */; };
+		ECBED4C82902E0FC0054373A /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBED4C72902E0FC0054373A /* LoginCoordinator.swift */; };
+		ECBED4CA2902E2870054373A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBED4C92902E2870054373A /* LoginViewController.swift */; };
+		ECBED4CC2902E4730054373A /* DefaultMapCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBED4CB2902E4730054373A /* DefaultMapCoordinator.swift */; };
+		ECBED4CF2902E49A0054373A /* MapCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBED4CE2902E49A0054373A /* MapCoordinator.swift */; };
 		F0FE14FC5BD68FFB609C2C16 /* Pods_MapTest_MapTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73870EE58938FB1D63DE9D6E /* Pods_MapTest_MapTestUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +69,16 @@
 		EC713B2A28FEFE2D0007B487 /* MapTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTestUITests.swift; sourceTree = "<group>"; };
 		EC713B2C28FEFE2D0007B487 /* MapTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EC713B3C28FF030B0007B487 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		ECBED4BB2902D6A40054373A /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		ECBED4BD2902D71A0054373A /* CoordinatorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorDelegate.swift; sourceTree = "<group>"; };
+		ECBED4BF2902D8AB0054373A /* CoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorType.swift; sourceTree = "<group>"; };
+		ECBED4C12902D9B10054373A /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		ECBED4C32902E00E0054373A /* DefaultAppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAppCoordinator.swift; sourceTree = "<group>"; };
+		ECBED4C52902E0DB0054373A /* DefaultLoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultLoginCoordinator.swift; sourceTree = "<group>"; };
+		ECBED4C72902E0FC0054373A /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		ECBED4C92902E2870054373A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ECBED4CB2902E4730054373A /* DefaultMapCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultMapCoordinator.swift; sourceTree = "<group>"; };
+		ECBED4CE2902E49A0054373A /* MapCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +135,7 @@
 		EC713AFD28FEFE2B0007B487 = {
 			isa = PBXGroup;
 			children = (
+				ECBED4BA2902D5F60054373A /* Coordinator */,
 				EC713B0828FEFE2B0007B487 /* MapTest */,
 				EC713B1F28FEFE2D0007B487 /* MapTestTests */,
 				EC713B2928FEFE2D0007B487 /* MapTestUITests */,
@@ -137,12 +158,9 @@
 		EC713B0828FEFE2B0007B487 /* MapTest */ = {
 			isa = PBXGroup;
 			children = (
-				EC713B0928FEFE2B0007B487 /* AppDelegate.swift */,
-				EC713B0B28FEFE2B0007B487 /* SceneDelegate.swift */,
-				EC713B1228FEFE2D0007B487 /* Assets.xcassets */,
-				EC713B1428FEFE2D0007B487 /* LaunchScreen.storyboard */,
-				EC713B1728FEFE2D0007B487 /* Info.plist */,
-				EC713B3C28FF030B0007B487 /* MapViewController.swift */,
+				ECBED4B92902D45A0054373A /* Support */,
+				ECBED4B82902D42E0054373A /* Presentation */,
+				ECBED4B72902D3E50054373A /* Application */,
 			);
 			path = MapTest;
 			sourceTree = "<group>";
@@ -162,6 +180,50 @@
 				EC713B2C28FEFE2D0007B487 /* MapTestUITestsLaunchTests.swift */,
 			);
 			path = MapTestUITests;
+			sourceTree = "<group>";
+		};
+		ECBED4B72902D3E50054373A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EC713B0928FEFE2B0007B487 /* AppDelegate.swift */,
+				EC713B0B28FEFE2B0007B487 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		ECBED4B82902D42E0054373A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				EC713B3C28FF030B0007B487 /* MapViewController.swift */,
+				ECBED4C92902E2870054373A /* LoginViewController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		ECBED4B92902D45A0054373A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				EC713B1228FEFE2D0007B487 /* Assets.xcassets */,
+				EC713B1428FEFE2D0007B487 /* LaunchScreen.storyboard */,
+				EC713B1728FEFE2D0007B487 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		ECBED4BA2902D5F60054373A /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				ECBED4BB2902D6A40054373A /* Coordinator.swift */,
+				ECBED4BD2902D71A0054373A /* CoordinatorDelegate.swift */,
+				ECBED4BF2902D8AB0054373A /* CoordinatorType.swift */,
+				ECBED4C12902D9B10054373A /* AppCoordinator.swift */,
+				ECBED4C32902E00E0054373A /* DefaultAppCoordinator.swift */,
+				ECBED4C52902E0DB0054373A /* DefaultLoginCoordinator.swift */,
+				ECBED4CB2902E4730054373A /* DefaultMapCoordinator.swift */,
+				ECBED4C72902E0FC0054373A /* LoginCoordinator.swift */,
+				ECBED4CE2902E49A0054373A /* MapCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,9 +500,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECBED4C42902E00E0054373A /* DefaultAppCoordinator.swift in Sources */,
+				ECBED4BC2902D6A40054373A /* Coordinator.swift in Sources */,
+				ECBED4C82902E0FC0054373A /* LoginCoordinator.swift in Sources */,
 				EC713B0A28FEFE2B0007B487 /* AppDelegate.swift in Sources */,
+				ECBED4C02902D8AB0054373A /* CoordinatorType.swift in Sources */,
+				ECBED4CC2902E4730054373A /* DefaultMapCoordinator.swift in Sources */,
 				EC713B3D28FF030B0007B487 /* MapViewController.swift in Sources */,
+				ECBED4BE2902D71A0054373A /* CoordinatorDelegate.swift in Sources */,
 				EC713B0C28FEFE2B0007B487 /* SceneDelegate.swift in Sources */,
+				ECBED4CF2902E49A0054373A /* MapCoordinator.swift in Sources */,
+				ECBED4C62902E0DB0054373A /* DefaultLoginCoordinator.swift in Sources */,
+				ECBED4C22902D9B10054373A /* AppCoordinator.swift in Sources */,
+				ECBED4CA2902E2870054373A /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,6 +666,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -614,7 +687,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RQHZUCMHSH;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MapTest/Info.plist;
+				INFOPLIST_FILE = MapTest/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -643,7 +716,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RQHZUCMHSH;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MapTest/Info.plist;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
